@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="fonts/din-pro/stylesheet.css">
+    <link rel="stylesheet" href="fonts/myriad-pro/myriad_pro.css">
+    <title>Реализованные проекты</title>
+</head>
+
+<body>
+    
+    <section class="container">
+        <div class="top-block">
+            <h1 class="text-uppercase text-center main-title">Реализованные проекты</h1>
+            <p class="text-center">
+                Коммуникационное агентство – часть многофункционального холдинга, объединяющего различные компании на территории России
+                и ближнего зарубежья.
+            </p>
+            <p class="text-center">
+                Наши подходы к организации бизнеса и имеющиеся ресурсы позволяют одинаково эффективно обеспечивать реализацию как
+                крупномасштабных федеральных или международных проектов, так и решать небольшие локальные задачи. Мы находимся в
+                постоянном развитии, расширяя и укрепляя имеющиеся бизнес-направления, а также формируя новые.
+            </p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="d-flex gallery">
+            <div class="gallery-item">
+                <img src="images/saha-republic.jpg" alt="Республика Саха">
+                <h3 data-toggle="modal" data-target="#detailedArticleDescription" class="text-uppercase text-light">Республика Саха</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gazprom.jpg" alt="Газпром">
+                <h3 data-toggle="modal" data-target="#detailedArticleDescription" class="text-uppercase text-light">Газпром</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="images/nokia.jpg" alt="Nokia">
+                <h3 data-toggle="modal" data-target="#detailedArticleDescription" class="text-uppercase text-light">Nokia</h3>
+            </div>
+        </div>
+        <button class="load-more text-uppercase d-block ml-auto mr-auto" type="button">Загрузить еще</button>
+    </section>
+
+    <footer class="footer text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-column-wrapper">
+                        <h3 class="text-uppercase contacts-title">Контакты</h3>
+                        <p class="communication-agency">Коммуникационное агентство</p>
+                        <p class="address">
+                            344000, Россия, г. Ростов-на-Дону ул. Мира, д. 12 <br />
+                            Бизнес–центр «Рост», оф. 104
+                        </p>
+                        <div class="contacts-block d-flex">
+                            <div class="contacts-block-phones">
+                                <ul class="contacts-block-phones-items">
+                                    <li><a href="+7(861)3001128">+7 (861) 300-11-28</a></li>
+                                    <li><a href="+7(861)3001152">+7 (861) 300-11-52</a></li>
+                                    <li><a href="+7(861)3001152">+7 (861) 300-11-52</a></li>
+                                </ul>
+                            </div>
+                            <div class="contacts-block-email">
+                                <p class="email-info">Email:</p>
+                                <p class="email-info">info@example.com</p>
+                                <p class="email-info">Facebook.com/exampleagency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="detailedArticleDescription" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="images/nokia.jpg" alt="Nokia">
+                    </div>
+                    <h5 class="text-uppercase mt-2 mb-2 text-center">Nokia</h5>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime alias quos. Error consequuntur voluptate excepturi quisquam, numquam soluta tenetur.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

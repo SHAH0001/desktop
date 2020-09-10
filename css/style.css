@@ -1,0 +1,122 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MyriadPro-Regular', Arial, Helvetica, sans-serif;
+    color: #08172d;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main-title {
+    font-family: 'DIN Pro Cond';
+    font-size: 46px;
+    color: #344258;
+    margin: 3.5% 0 0 0;
+}
+
+.top-block p:nth-child(2) {
+    padding: 54px 15% 0 15%;
+}
+
+.top-block p:nth-child(3) {
+    padding: 0 15%;
+}
+
+.gallery {
+    margin: 8.4% 0 0 0;
+}
+
+.gallery-item {
+    position: relative;
+    width: 34%;
+    height: 576px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    height: 100%;
+    width: auto;
+    max-width: none;
+}
+
+.gallery-item h3 {
+    font-family: 'DIN Pro Cond';
+    position: absolute;
+    bottom: 5.5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.load-more {
+    font-family: 'DIN Pro Cond';
+    font-weight: bold;
+    font-size: 18px;
+    color: #344258;
+    border: 3px solid #00264c;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 5.1%;
+    margin-bottom: 6.6%;
+    padding: 13px 130px 14px 123px;
+}
+
+.footer {
+    background-color: #0d1b2b;
+}
+
+.communication-agency,
+.address {
+    font-size: 18px;
+}
+
+.communication-agency {
+    margin: 11% 0 0 0;
+}
+
+.address {
+    margin: 3% 0 0 0;
+}
+
+.left-column-wrapper {
+    margin: 10% 0 0 35%;
+}
+
+.contacts-title {
+    font-family: 'DIN Pro Cond';
+    font-size: 45px;
+    font-weight: bold;
+    /* margin: 10% 0 0 35%; */
+}
+
+.contacts-block-phones-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts-block-phones-items a {
+    text-decoration: none;
+}

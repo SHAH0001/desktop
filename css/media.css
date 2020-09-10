@@ -1,0 +1,41 @@
+@media screen and (max-width: 980px) {
+    .gallery {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery-item {
+        width: 45%;
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-item {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .top-block p:nth-child(2) {
+        padding: 54px 5% 0 5%;
+    }
+
+    .top-block p:nth-child(3) {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-block p:nth-child(2) {
+        padding: 54px 0 20px 0;
+    }
+
+    .top-block p:nth-child(3) {
+        padding: 0;
+    }
+
+    .gallery-item {
+        width: 90%;
+    }
+}
