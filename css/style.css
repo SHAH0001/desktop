@@ -115,10 +115,6 @@ img {
     line-height: 24px;
 }
 
-.left-column-wrapper {
-    /* margin: 10% 0 0 35%; */
-}
-
 .contacts-title {
     font-family: 'DIN Pro Cond';
     font-size: 45px;
@@ -174,7 +170,6 @@ img {
 
 .form-control-input,
 .form-control-textarea {
-    /* display: block; */
     border: none;
     outline: none;
     background-color: #243448;
