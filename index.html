@@ -59,23 +59,67 @@
                             Бизнес–центр «Рост», оф. 104
                         </p>
                         <div class="contacts-block d-flex">
-                            <div class="contacts-block-phones">
-                                <ul class="contacts-block-phones-items">
+                            <div class="row">
+                                <ul class="contacts-block-phones-items col-md-7">
                                     <li><a href="+7(861)3001128">+7 (861) 300-11-28</a></li>
                                     <li><a href="+7(861)3001152">+7 (861) 300-11-52</a></li>
                                     <li><a href="+7(861)3001152">+7 (861) 300-11-52</a></li>
                                 </ul>
-                            </div>
-                            <div class="contacts-block-email">
-                                <p class="email-info">Email:</p>
-                                <p class="email-info">info@example.com</p>
-                                <p class="email-info">Facebook.com/exampleagency</p>
+                                
+                                <div class="contacts-block-email col-md-3">
+                                    <p class="email-info email">Email:</p>
+                                    <p class="email-info email-example">info@example.com</p>
+                                    <p class="email-info facebook">Facebook.com/exampleagency</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    
+                <div class="col-md-4">
+                    <div class="send-request">
+                        <form action="#" method="post">
+                            
+                            <input 
+                                class="form-control-input form-control-input-name" 
+                                name="name" 
+                                placeholder="Полное имя" 
+                                type="text"
+                            >
+                            
+                            <input 
+                                class="form-control-input" 
+                                name="email" 
+                                placeholder="E-mail" 
+                                type="email"
+                            >
+
+                            <input 
+                                class="form-control-input" 
+                                name="phone" 
+                                placeholder="Телефон" 
+                                type="text"
+                            >
+
+                            <textarea 
+                                class="form-control-textarea" 
+                                name="description" 
+                                placeholder="Пожалуйста, опишите задачу"  cols="30" 
+                                rows="10"
+                            ></textarea>
+                            
+                            <a href="#" class="personal-data">
+                                Политика обработки персональных данных
+                            </a>
+
+                            <button 
+                                class="send-request-button text-uppercase" 
+                                type="button"
+                            >
+                                Отправить заявку
+                            </button>
+
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

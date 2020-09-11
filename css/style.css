@@ -85,6 +85,7 @@ img {
 
 .footer {
     background-color: #0d1b2b;
+    padding-bottom: 96px;
 }
 
 .communication-agency,
@@ -108,7 +109,10 @@ img {
     font-family: 'DIN Pro Cond';
     font-size: 45px;
     font-weight: bold;
-    /* margin: 10% 0 0 35%; */
+}
+
+.contacts-block {
+    margin: 8% 0 0 0;
 }
 
 .contacts-block-phones-items {
@@ -118,5 +122,82 @@ img {
 }
 
 .contacts-block-phones-items a {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
     text-decoration: none;
+    margin: 0 0 -5px 0;
+}
+
+.contacts-block-email {
+    font-size: 18px;
+    color: #3d95e3;
+    border-left: 3px solid #0058a7;
+    margin: 0 0 0 -1px;
+    padding: 0 0 0 34px;
+}
+
+.email {
+    margin: 13px 0 0 0;
+}
+
+.email-example {
+    margin: -4px 0 0 0;
+}
+
+.facebook {
+    margin: 15px 0 0 0;
+}
+
+.send-request {
+    font-family: 'DIN Pro Cond';
+    border: 5px solid #243448;
+    margin: 6% -161px 0 124px;
+    /* padding: 0 0 0 0; */
+    text-align: center;
+
+}
+
+.form-control-input,
+.form-control-textarea {
+    /* display: block; */
+    border: none;
+    outline: none;
+    background-color: #243448;
+    font-size: 15px;
+    color: #ffffff;
+    width: 86%;
+    padding: 15px 0 15px 35px;
+}
+
+.form-control-input {
+    margin: 0 0 5px 0;
+}
+
+.form-control-textarea {
+    resize: none;
+    height: 110px;
+}
+
+.form-control-input-name {
+    margin: 7% 0 5px 0;
+}
+
+.personal-data {
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 19px;
+    color: #4c89c1;
+    margin: 4px 0 0 0;
+}
+
+.send-request-button {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 14px auto 30px auto;
+    padding: 14px 80px;
+    background-color: transparent;
+    border: 3px solid #fff;
 }
