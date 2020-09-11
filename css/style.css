@@ -88,21 +88,35 @@ img {
     padding-bottom: 96px;
 }
 
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-left-column,
+.footer-right-column {
+    width: 50%;
+}
+
+.footer-left-column {
+    margin: 5% 0 0 17%;
+}
+
 .communication-agency,
 .address {
     font-size: 18px;
 }
 
 .communication-agency {
-    margin: 11% 0 0 0;
+    margin: 56px 0 0 0;
 }
 
 .address {
-    margin: 3% 0 0 0;
+    margin: 16px 0 0 0;
+    line-height: 24px;
 }
 
 .left-column-wrapper {
-    margin: 10% 0 0 35%;
+    /* margin: 10% 0 0 35%; */
 }
 
 .contacts-title {
@@ -112,7 +126,8 @@ img {
 }
 
 .contacts-block {
-    margin: 8% 0 0 0;
+    display: flex;
+    margin: 45px 0 0 0;
 }
 
 .contacts-block-phones-items {
@@ -133,8 +148,8 @@ img {
     font-size: 18px;
     color: #3d95e3;
     border-left: 3px solid #0058a7;
-    margin: 0 0 0 -1px;
-    padding: 0 0 0 34px;
+    margin: 0 0 0 39px;
+    padding: 0 0 0 35px;
 }
 
 .email {
@@ -149,13 +164,12 @@ img {
     margin: 15px 0 0 0;
 }
 
-.send-request {
+.footer-right-column {
     font-family: 'DIN Pro Cond';
     border: 5px solid #243448;
-    margin: 6% -161px 0 124px;
-    /* padding: 0 0 0 0; */
+    margin: 32px 0 0 -144px;
+    width: 556px;
     text-align: center;
-
 }
 
 .form-control-input,
